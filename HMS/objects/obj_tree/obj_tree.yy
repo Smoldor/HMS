@@ -4,7 +4,6 @@
     "mvc": "1.0",
     "name": "obj_tree",
     "eventList": [
-        
         {
             "id": "365a8c8e-91bf-4933-8778-db0e68ddbf8b",
             "modelName": "GMEvent",
