@@ -12,9 +12,9 @@ horizontalspeed = horizontal * walkspeed;
 verticlespeed = verticle * walkspeed;
 
 //horizontal collision
-if (place_meeting(x-horizontalspeed,y,object_stone))
+if (place_meeting(x-horizontalspeed,y,all))
 {
-	while (!place_meeting(x-sign(horizontalspeed),y,object_stone))
+	while (!place_meeting(x-sign(horizontalspeed),y,all))
 	{
 		x = x - sign(horizontalspeed);
 	}
@@ -22,9 +22,9 @@ if (place_meeting(x-horizontalspeed,y,object_stone))
 }
 
 //verticle collision
-if (place_meeting(x,y-verticlespeed,object_stone))
+if (place_meeting(x,y-verticlespeed,all))
 {
-	while (!place_meeting(x,y-sign(verticlespeed),object_stone))
+	while (!place_meeting(x,y-sign(verticlespeed),all))
 	{
 		y = y - sign(verticlespeed);
 	}
