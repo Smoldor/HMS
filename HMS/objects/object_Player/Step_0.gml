@@ -12,9 +12,9 @@ horizontalspeed = horizontal * walkspeed;
 verticlespeed = verticle * walkspeed;
 
 //horizontal collision
-if (place_meeting(x-horizontalspeed,y,all))
+if (place_meeting(x-horizontalspeed,y,obj_tree))
 {
-	while (!place_meeting(x-sign(horizontalspeed),y,all))
+	while (!place_meeting(x-sign(horizontalspeed),y,obj_tree))
 	{
 		x = x - sign(horizontalspeed);
 	}
@@ -22,9 +22,9 @@ if (place_meeting(x-horizontalspeed,y,all))
 }
 
 //verticle collision
-if (place_meeting(x,y-verticlespeed,all))
+if (place_meeting(x,y-verticlespeed,obj_tree))
 {
-	while (!place_meeting(x,y-sign(verticlespeed),all))
+	while (!place_meeting(x,y-sign(verticlespeed),obj_tree))
 	{
 		y = y - sign(verticlespeed);
 	}
@@ -33,3 +33,18 @@ if (place_meeting(x,y-verticlespeed,all))
 
 x = x - horizontalspeed;
 y = y - verticlespeed;
+
+//interact check
+press = mouse_check_button(mb_left);
+
+if press = 1
+{
+	interact = 1;
+}
+else
+{
+	interact = 0;
+}
+
+//interact action
+
