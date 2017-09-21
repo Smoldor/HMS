@@ -33,3 +33,18 @@ if (place_meeting(x,y-verticlespeed,all))
 
 x = x - horizontalspeed;
 y = y - verticlespeed;
+
+//interact check
+press = keyboard_check(mb_left);
+
+if press = 1
+{
+	interact = 1;
+}
+else
+{
+	interact = 0;
+}
+
+//interact action
+
