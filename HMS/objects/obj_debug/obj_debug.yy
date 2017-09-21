@@ -1,18 +1,18 @@
 {
-    "id": "caad8244-a530-42bd-a423-dfba908002b7",
+    "id": "e35aca85-825b-4eff-9cbd-a9b92f2d83dd",
     "modelName": "GMObject",
     "mvc": "1.0",
-    "name": "object_stone",
+    "name": "obj_debug",
     "eventList": [
         {
-            "id": "f1fec35d-a300-42ea-82c2-69f81bb01269",
+            "id": "63f8817d-47ee-4d88-8468-022b656733ef",
             "modelName": "GMEvent",
             "mvc": "1.0",
             "IsDnD": false,
             "collisionObjectId": "00000000-0000-0000-0000-000000000000",
             "enumb": 0,
-            "eventtype": 0,
-            "m_owner": "caad8244-a530-42bd-a423-dfba908002b7"
+            "eventtype": 8,
+            "m_owner": "e35aca85-825b-4eff-9cbd-a9b92f2d83dd"
         }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
@@ -31,6 +31,6 @@
     "physicsShapePoints": null,
     "physicsStartAwake": true,
     "solid": false,
-    "spriteId": "f3ca010d-160c-4c37-bfc5-475d388fd426",
+    "spriteId": "00000000-0000-0000-0000-000000000000",
     "visible": true
 }

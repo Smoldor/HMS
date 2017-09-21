@@ -223,6 +223,22 @@
             }
         },
         {
+            "Key": "e35aca85-825b-4eff-9cbd-a9b92f2d83dd",
+            "Value": {
+                "id": "7dbfa797-965b-44b7-82cd-ec2fcba43802",
+                "resourcePath": "objects\\obj_debug\\obj_debug.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "edb66b7d-570f-4448-a537-353a6a0f38c5",
+            "Value": {
+                "id": "d23526f9-a278-4b88-81e8-d101bc4cdc7a",
+                "resourcePath": "fonts\\fnt_basic\\fnt_basic.yy",
+                "resourceType": "GMFont"
+            }
+        },
+        {
             "Key": "efef394c-e559-4121-a148-5885db0c74e9",
             "Value": {
                 "id": "a553a558-81db-494f-8c78-64518fd72375",
